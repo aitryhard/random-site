@@ -48,7 +48,7 @@ a{
 }
 
 .light_waves{
-    background-image: url(/img/white_waves_bg.png);
+    background-image: url(img/white_waves_bg.png);
     background-repeat: repeat-x;
     position: relative;
     top: -20px;
@@ -111,7 +111,7 @@ footer{
 
 .dark_waves{
     color: transparent;
-    background-image: url(/img/wave_bg.png);
+    background-image: url(img/wave_bg.png);
     position: relative;
     top: -20px;
 }
