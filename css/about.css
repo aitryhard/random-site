@@ -1,0 +1,83 @@
+.grid-item h2{
+    color: black;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.grid-item p{
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.grid-item{
+    padding: 10px;
+    color: rgb(77, 77, 77);
+    margin: 10px 50px 10px 50px;
+}
+
+h1{
+    font-size: 60px;
+    color: black;
+    font-weight: 600;
+}
+
+.person{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 10px black solid;
+    width: 300px;
+    padding-top: 30px;
+    align-items: center;
+    background-image: url(/img/about/wood_pattern.jpg);
+}
+
+.person img{
+    width: 80%;
+    padding-bottom: 30px;
+}
+
+.person h2{
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+
+.person h3{
+    padding-bottom: 20px;
+    color: rgb(58, 58, 58);
+    font-size: 15px;
+}
+
+.person p{
+    padding: 30px;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+hr{
+    border-top: 1px rgb(231, 231, 231) solid;
+    width: 100%;
+}
+
+.command-person{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.about-us{
+    background-color: rgb(41, 137, 115);
+}
+
+.about-us a{
+    color: white;
+}
